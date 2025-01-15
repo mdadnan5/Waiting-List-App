@@ -1,0 +1,46 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Proxima Nova', sans-serif;
+    background-color: #f9f9f9;
+    color: #352384;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #FF00BF;
+  }
+  
+  button {
+    background: linear-gradient(90deg, #FF00BF 0%, #352384 100%);
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(90deg, #352384 0%, #FF00BF 100%);
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
